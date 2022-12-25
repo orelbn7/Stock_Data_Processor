@@ -1,8 +1,21 @@
 # Stock Data Processor
 
-This is a powerful Python script that allows you to retrieve and analyze stock data for all NASDAQ ticker symbols with just a few simple commands. Using the yfinance library, the script retrieves the stock data for each ticker symbol and calculates the percentage change in price between the first and last rows of the data.
+Welcome to the Stock Data Processor! This Python script allows you to retrieve and analyze stock data for all NASDAQ ticker symbols with just a few simple commands.
 
-But that's not all! The script also groups the stock data by date and finds the highest percentage change in price for each day. This allows you to easily identify the top performing stocks on a daily basis.
+Using the yfinance library, the script retrieves the stock data for each ticker symbol and calculates the percentage change in price between the first and last rows of the data. It also groups the stock data by date and finds the highest percentage change in price for each day, so you can easily identify the top performing stocks on a daily basis.
+
+To improve performance, the script uses multi-threading to retrieve the stock data in parallel and caches the data to reduce API calls.
+
+Here are some examples of the output you can expect from the script:
+
+| Date       | Ticker Symbol | Percentage Change in Price |
+|------------|---------------|----------------------------|
+| 2022-01-01 | AAPL          | 10.00%                     |
+| 2022-01-02 | GOOGL         | 5.00%                      |
+| 2022-01-03 | MSFT          | 3.00%                      |
+| 2022-01-04 | AMZN          | 7.50%                      |
+| 2022-01-05 | FB            | 4.50%                      |
+
 
 ## Features
 - Retrieve and analyze stock data for all NASDAQ ticker symbols.
