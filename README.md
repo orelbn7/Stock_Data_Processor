@@ -10,11 +10,11 @@ Here are some examples of the output you can expect from the script:
 
 | Date       | Ticker Symbol | Percentage Change in Price |
 |------------|---------------|----------------------------|
-| 2022-01-01 | AAPL          | 10.00%                     |
-| 2022-01-02 | GOOGL         | 5.00%                      |
-| 2022-01-03 | MSFT          | 3.00%                      |
-| 2022-01-04 | AMZN          | 7.50%                      |
-| 2022-01-05 | FB            | 4.50%                      |
+| 2022-12-20 | ICCM          | 177.48%                    |
+| 2022-12-19 | MDGL         | 268.07%                      |
+| 2022-12-16 | COSM          | 6872.73%                      |
+| 2022-12-15 | IQMDW          | 233.33%                      |
+| 2022-12-14 | XBIOW            | 971.43%                      |
 
 
 ## Features
