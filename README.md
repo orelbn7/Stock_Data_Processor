@@ -29,4 +29,4 @@ The stock data is cached to improve performance and reduce API calls.
 The script uses multi-threading to retrieve the stock data in parallel, which can significantly speed up the process.
 
 ## License
-This project is licensed under the MIT License. See the LICENSE file for more details.
+This project is licensed under the MIT License. 
